@@ -334,6 +334,16 @@ div.sections section.side_image div.image img {
 
 section#infographic {
     background: #202020;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+}
+section img.footer_logo {
+    max-width: 90%;
+    height: auto;
 }
 
 ul.bulleted {
