@@ -359,7 +359,7 @@ div.action_bar {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background: #400;
+    background: #222;
     z-index: 9001;
 }
 div.action_bar .fftf {
