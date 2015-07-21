@@ -331,6 +331,7 @@ var EmailActionController = Composer.Controller.extend({
 /**
     SenatorController: Shows a senator
 **/
+/*
 var SenatorController = Composer.Controller.extend({
 
     events: {
@@ -385,7 +386,7 @@ var SenatorController = Composer.Controller.extend({
     }
 
 });
-
+*/
 
 // -----------------------------------------------------------------------------
 // Actual functionality starts here :)
@@ -406,6 +407,7 @@ var call_controller = new CallActionController({
 if (window.location.href.indexOf('email=1') !== -1)
     call_controller.show_email_action();
 
+/*
 var targets = [
     {
         name: 'Rand Paul',
@@ -669,3 +671,4 @@ var targets = [
 ];
 for (var i = 0; i < targets.length; i++)
     new SenatorController({data: targets[i]});
+*/
