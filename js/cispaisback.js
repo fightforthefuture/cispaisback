@@ -274,8 +274,8 @@ var EmailActionController = Composer.Controller.extend({
 
         if (!this.first_name.value) add_error(this.first_name);
         if (!this.email.value) add_error(this.email);
-        if (!this.address1.value) add_error(this.address1);
-        if (!this.zip.value) add_error(this.zip);
+        // if (!this.address1.value) add_error(this.address1);
+        // if (!this.zip.value) add_error(this.zip);
 
         if (error) return alert('Please fill out all fields :)');
 
